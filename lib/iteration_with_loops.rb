@@ -9,9 +9,9 @@ def find_min_in_nested_arrays(src)
         src[row_index][temp_index] = min_value
         temp_index += 1
       end
+       min_temps << min_value
       row_index += 1
     end
-     min_temps << min_value
     min_temps
   end
 end
