@@ -7,6 +7,7 @@ def find_min_in_nested_arrays(src)
       min_value = 100
       if src[row_index][temp_index] < min_value
         src[row_index][temp_index] = min_value
+        min_temps << min_value
         temp_index += 1
       end
       row_index += 1
